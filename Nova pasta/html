@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro HTML</title>
+    <link rel="stylesheet" href="CSS/arq.css">
+</head>
+<body>
+   <div id="quadrado" class="quadrado"></div>
+   <textarea id="input-radius" placeholder="Digite um valor para o border-radius"></textarea>
+   <button onclick="alterarBorderRadius()">Aplicar</button>
+</body>
+</html>
+
