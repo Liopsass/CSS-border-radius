@@ -11,5 +11,6 @@
    <textarea id="input-radius" placeholder="Digite um valor para o border-radius"></textarea>
    <button onclick="alterarBorderRadius()">Aplicar</button>
 </body>
+<script src="js/arq.js"></script>
 </html>
 
