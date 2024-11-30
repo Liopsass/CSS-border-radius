@@ -7,10 +7,20 @@
     <link rel="stylesheet" href="CSS/arq.css">
 </head>
 <body>
-   <div id="quadrado" class="quadrado"></div>
-   <textarea id="input-radius" placeholder="Digite um valor para o border-radius"></textarea>
-   <button onclick="alterarBorderRadius()">Aplicar</button>
+    <textarea id="input-radius2" class="input-radius2"placeholder="Digite um valor para o border-radius"></textarea>
+    <button onclick="alterarBorderRadius(2, 'input-radius2');" >Aplicar</button>
+    <textarea id="input-radius3" class="input-radius3"placeholder="Digite um valor para o border-radius"></textarea>
+    <button class="botao3"onclick="alterarBorderRadius(3, 'input-radius3')">Aplicar</button>
+    <div id="quadrado" class="quadrado"></div>
+    <textarea id="input-radius" placeholder="Digite um valor para o border-radius"></textarea>
+    <button onclick="alterarBorderRadius(1, 'input-radius')">Aplicar</button>
+    <textarea id="input-radius4" class="input-radius4"placeholder="Digite um valor para o border-radius"></textarea>
+    <button class="botao4" onclick="alterarBorderRadius(4, 'input-radius4')">Aplicar</button>
+
+</div><div class="copia">
+    <input  size="50" type="text" id="myInput" readonly>
+    <button onclick="myFunction()">Copy text</button>
+    </div>
 </body>
 <script src="js/arq.js"></script>
 </html>
-
